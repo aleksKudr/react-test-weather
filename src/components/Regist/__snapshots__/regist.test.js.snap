@@ -1,0 +1,551 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Header 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Navbar
+        color="light"
+        expand="md"
+        light={true}
+        tag="nav"
+      >
+        <Nav
+          className="ml-auto"
+          navbar={true}
+          tag="ul"
+          vertical={false}
+        >
+          <NavItem
+            tag="li"
+          >
+            <NavLink
+              href="/login"
+              tag="a"
+            >
+              Login
+            </NavLink>
+          </NavItem>
+          <NavItem
+            tag="li"
+          >
+            <NavLink
+              href="/regist"
+              tag="a"
+            >
+               Regist
+            </NavLink>
+          </NavItem>
+        </Nav>
+      </Navbar>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Nav
+          className="ml-auto"
+          navbar={true}
+          tag="ul"
+          vertical={false}
+        >
+          <NavItem
+            tag="li"
+          >
+            <NavLink
+              href="/login"
+              tag="a"
+            >
+              Login
+            </NavLink>
+          </NavItem>
+          <NavItem
+            tag="li"
+          >
+            <NavLink
+              href="/regist"
+              tag="a"
+            >
+               Regist
+            </NavLink>
+          </NavItem>
+        </Nav>,
+        "color": "light",
+        "expand": "md",
+        "light": true,
+        "tag": "nav",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <NavItem
+              tag="li"
+            >
+              <NavLink
+                href="/login"
+                tag="a"
+              >
+                Login
+              </NavLink>
+            </NavItem>,
+            <NavItem
+              tag="li"
+            >
+              <NavLink
+                href="/regist"
+                tag="a"
+              >
+                 Regist
+              </NavLink>
+            </NavItem>,
+          ],
+          "className": "ml-auto",
+          "navbar": true,
+          "tag": "ul",
+          "vertical": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <NavLink
+                href="/login"
+                tag="a"
+              >
+                Login
+              </NavLink>,
+              "tag": "li",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Login",
+                "href": "/login",
+                "tag": "a",
+              },
+              "ref": null,
+              "rendered": "Login",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <NavLink
+                href="/regist"
+                tag="a"
+              >
+                 Regist
+              </NavLink>,
+              "tag": "li",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": " Regist",
+                "href": "/regist",
+                "tag": "a",
+              },
+              "ref": null,
+              "rendered": " Regist",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Navbar
+          color="light"
+          expand="md"
+          light={true}
+          tag="nav"
+        >
+          <Nav
+            className="ml-auto"
+            navbar={true}
+            tag="ul"
+            vertical={false}
+          >
+            <NavItem
+              tag="li"
+            >
+              <NavLink
+                href="/login"
+                tag="a"
+              >
+                Login
+              </NavLink>
+            </NavItem>
+            <NavItem
+              tag="li"
+            >
+              <NavLink
+                href="/regist"
+                tag="a"
+              >
+                 Regist
+              </NavLink>
+            </NavItem>
+          </Nav>
+        </Navbar>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Nav
+            className="ml-auto"
+            navbar={true}
+            tag="ul"
+            vertical={false}
+          >
+            <NavItem
+              tag="li"
+            >
+              <NavLink
+                href="/login"
+                tag="a"
+              >
+                Login
+              </NavLink>
+            </NavItem>
+            <NavItem
+              tag="li"
+            >
+              <NavLink
+                href="/regist"
+                tag="a"
+              >
+                 Regist
+              </NavLink>
+            </NavItem>
+          </Nav>,
+          "color": "light",
+          "expand": "md",
+          "light": true,
+          "tag": "nav",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <NavItem
+                tag="li"
+              >
+                <NavLink
+                  href="/login"
+                  tag="a"
+                >
+                  Login
+                </NavLink>
+              </NavItem>,
+              <NavItem
+                tag="li"
+              >
+                <NavLink
+                  href="/regist"
+                  tag="a"
+                >
+                   Regist
+                </NavLink>
+              </NavItem>,
+            ],
+            "className": "ml-auto",
+            "navbar": true,
+            "tag": "ul",
+            "vertical": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <NavLink
+                  href="/login"
+                  tag="a"
+                >
+                  Login
+                </NavLink>,
+                "tag": "li",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Login",
+                  "href": "/login",
+                  "tag": "a",
+                },
+                "ref": null,
+                "rendered": "Login",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <NavLink
+                  href="/regist"
+                  tag="a"
+                >
+                   Regist
+                </NavLink>,
+                "tag": "li",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": " Regist",
+                  "href": "/regist",
+                  "tag": "a",
+                },
+                "ref": null,
+                "rendered": " Regist",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`test RegistForm 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ForwardRef
+    destroyOnUnmount={true}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="streamForm"
+    getFormState={[Function]}
+    keepDirtyOnReinitialize={false}
+    onSubmit={[MockFunction]}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+    validate={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "destroyOnUnmount": true,
+      "enableReinitialize": false,
+      "forceUnregisterOnUnmount": false,
+      "form": "streamForm",
+      "forwardedRef": null,
+      "getFormState": [Function],
+      "keepDirtyOnReinitialize": false,
+      "onSubmit": [MockFunction],
+      "persistentSubmitErrors": false,
+      "pure": true,
+      "shouldAsyncValidate": [Function],
+      "shouldError": [Function],
+      "shouldValidate": [Function],
+      "shouldWarn": [Function],
+      "touchOnBlur": true,
+      "touchOnChange": false,
+      "updateUnregisteredFields": false,
+      "validate": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "destroyOnUnmount": true,
+        "enableReinitialize": false,
+        "forceUnregisterOnUnmount": false,
+        "form": "streamForm",
+        "forwardedRef": null,
+        "getFormState": [Function],
+        "keepDirtyOnReinitialize": false,
+        "onSubmit": [MockFunction],
+        "persistentSubmitErrors": false,
+        "pure": true,
+        "shouldAsyncValidate": [Function],
+        "shouldError": [Function],
+        "shouldValidate": [Function],
+        "shouldWarn": [Function],
+        "touchOnBlur": true,
+        "touchOnChange": false,
+        "updateUnregisteredFields": false,
+        "validate": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`test h3 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <h3 />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {},
+    "ref": null,
+    "rendered": null,
+    "type": "h3",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {},
+      "ref": null,
+      "rendered": null,
+      "type": "h3",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

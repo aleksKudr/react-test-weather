@@ -1,3 +1,45 @@
 {
-  "extends": "react-app"
+  "extends": [
+    "airbnb",
+    "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "indent": ["error", 2],
+    "semi": 2,
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-extend-native":"off",
+    "max-len": ["error", {
+      "code": 120,
+      "tabWidth": 2,
+      "ignoreComments": true,
+      "ignoreUrls": true,
+      "ignoreRegExpLiterals": true
+    }],
+    "comma-dangle": 0,
+    "object-curly-newline": ["error", {
+      "ObjectPattern": { "multiline": true, "minProperties": 2 },
+      "ImportDeclaration": { "multiline": true, "minProperties": 2 },
+      "ExportDeclaration": { "multiline": true, "minProperties": 2 }
+    }],
+    "object-property-newline": ["error", { "allowMultiplePropertiesPerLine": false }],
+    "array-element-newline": ["error", { "multiline": true, "minItems": 4 }],
+    "max-statements-per-line": ["error", { "max": 1 }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+    "react/no-unescaped-entities": 0,
+    "react/jsx-max-props-per-line": [1, { "when": "always" }],
+    "react/jsx-one-expression-per-line": [1, { "allow": "literal" }]
+  },
+  "env": {
+      "browser": true,
+      "node": true,
+      "jest": true
+  },
+  "globals": {
+      "document": false,
+      "shallow" : false,
+      "render" : false,
+      "mount" : false,
+      "toJson" : false
+  }
 }

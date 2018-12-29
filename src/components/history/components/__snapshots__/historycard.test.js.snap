@@ -1,0 +1,769 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test link home 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <a
+    aria-controls="collapseExample"
+    aria-expanded="false"
+    className="btn btn-link"
+    data-toggle="collapse"
+    href="#collapseExample"
+    role="button"
+  >
+    [MockFunction]
+  </a>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "aria-controls": "collapseExample",
+      "aria-expanded": "false",
+      "children": [MockFunction],
+      "className": "btn btn-link",
+      "data-toggle": "collapse",
+      "href": "#collapseExample",
+      "role": "button",
+    },
+    "ref": null,
+    "rendered": [MockFunction],
+    "type": "a",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "aria-controls": "collapseExample",
+        "aria-expanded": "false",
+        "children": [MockFunction],
+        "className": "btn btn-link",
+        "data-toggle": "collapse",
+        "href": "#collapseExample",
+        "role": "button",
+      },
+      "ref": null,
+      "rendered": [MockFunction],
+      "type": "a",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`test link home 2`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CityList
+    city={
+      Array [
+        Object {
+          "clouds": Object {
+            "all": 80,
+          },
+          "dt": 1545750000,
+          "dt_txt": "2018-12-25 15:00:00",
+          "main": Object {
+            "grnd_level": 1011.23,
+            "humidity": 95,
+            "pressure": 1011.23,
+            "sea_level": 1019.38,
+            "temp": 270.3,
+            "temp_kf": -1.76,
+            "temp_max": 272.063,
+            "temp_min": 270.3,
+          },
+          "rain": Object {},
+          "snow": Object {
+            "3h": 0.001,
+          },
+          "sys": Object {
+            "pod": "n",
+          },
+          "weather": Array [
+            Object {
+              "description": "clear sky",
+              "icon": "01n",
+              "id": 800,
+              "main": "Clear",
+            },
+          ],
+          "wind": Object {
+            "deg": 225.004,
+            "speed": 9.02,
+          },
+        },
+        Object {
+          "clouds": Object {
+            "all": 80,
+          },
+          "dt": 1545760800,
+          "dt_txt": "2018-12-25 18:00:00",
+          "main": Object {
+            "grnd_level": 1012.44,
+            "humidity": 88,
+            "pressure": 1012.44,
+            "sea_level": 1020.58,
+            "temp": 269.97,
+            "temp_kf": -1.32,
+            "temp_max": 271.297,
+            "temp_min": 269.97,
+          },
+          "rain": Object {},
+          "snow": Object {
+            "3h": 0.0185,
+          },
+          "sys": Object {
+            "pod": "n",
+          },
+          "weather": Array [
+            Object {
+              "description": "clear sky",
+              "icon": "01n",
+              "id": 800,
+              "main": "Clear",
+            },
+          ],
+          "wind": Object {
+            "deg": 227.514,
+            "speed": 9.11,
+          },
+        },
+        Object {
+          "clouds": Object {
+            "all": 80,
+          },
+          "dt": 1545771600,
+          "dt_txt": "2018-12-25 21:00:00",
+          "main": Object {
+            "grnd_level": 1013.07,
+            "humidity": 90,
+            "pressure": 1013.07,
+            "sea_level": 1021.23,
+            "temp": 270.19,
+            "temp_kf": -0.88,
+            "temp_max": 271.075,
+            "temp_min": 270.19,
+          },
+          "rain": Object {},
+          "snow": Object {
+            "3h": 0.049,
+          },
+          "sys": Object {
+            "pod": "n",
+          },
+          "weather": Array [
+            Object {
+              "description": "light snow",
+              "icon": "13n",
+              "id": 600,
+              "main": "Snow",
+            },
+          ],
+          "wind": Object {
+            "deg": 229.5,
+            "speed": 9.26,
+          },
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <CityCard
+          name={
+            Object {
+              "clouds": Object {
+                "all": 80,
+              },
+              "dt": 1545750000,
+              "dt_txt": "2018-12-25 15:00:00",
+              "main": Object {
+                "grnd_level": 1011.23,
+                "humidity": 95,
+                "pressure": 1011.23,
+                "sea_level": 1019.38,
+                "temp": 270.3,
+                "temp_kf": -1.76,
+                "temp_max": 272.063,
+                "temp_min": 270.3,
+              },
+              "rain": Object {},
+              "snow": Object {
+                "3h": 0.001,
+              },
+              "sys": Object {
+                "pod": "n",
+              },
+              "weather": Array [
+                Object {
+                  "description": "clear sky",
+                  "icon": "01n",
+                  "id": 800,
+                  "main": "Clear",
+                },
+              ],
+              "wind": Object {
+                "deg": 225.004,
+                "speed": 9.02,
+              },
+            }
+          }
+        />,
+        <CityCard
+          name={
+            Object {
+              "clouds": Object {
+                "all": 80,
+              },
+              "dt": 1545760800,
+              "dt_txt": "2018-12-25 18:00:00",
+              "main": Object {
+                "grnd_level": 1012.44,
+                "humidity": 88,
+                "pressure": 1012.44,
+                "sea_level": 1020.58,
+                "temp": 269.97,
+                "temp_kf": -1.32,
+                "temp_max": 271.297,
+                "temp_min": 269.97,
+              },
+              "rain": Object {},
+              "snow": Object {
+                "3h": 0.0185,
+              },
+              "sys": Object {
+                "pod": "n",
+              },
+              "weather": Array [
+                Object {
+                  "description": "clear sky",
+                  "icon": "01n",
+                  "id": 800,
+                  "main": "Clear",
+                },
+              ],
+              "wind": Object {
+                "deg": 227.514,
+                "speed": 9.11,
+              },
+            }
+          }
+        />,
+        <CityCard
+          name={
+            Object {
+              "clouds": Object {
+                "all": 80,
+              },
+              "dt": 1545771600,
+              "dt_txt": "2018-12-25 21:00:00",
+              "main": Object {
+                "grnd_level": 1013.07,
+                "humidity": 90,
+                "pressure": 1013.07,
+                "sea_level": 1021.23,
+                "temp": 270.19,
+                "temp_kf": -0.88,
+                "temp_max": 271.075,
+                "temp_min": 270.19,
+              },
+              "rain": Object {},
+              "snow": Object {
+                "3h": 0.049,
+              },
+              "sys": Object {
+                "pod": "n",
+              },
+              "weather": Array [
+                Object {
+                  "description": "light snow",
+                  "icon": "13n",
+                  "id": 600,
+                  "main": "Snow",
+                },
+              ],
+              "wind": Object {
+                "deg": 229.5,
+                "speed": 9.26,
+              },
+            }
+          }
+        />,
+      ],
+      "data-test": "component-guessed-words",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "name": Object {
+            "clouds": Object {
+              "all": 80,
+            },
+            "dt": 1545750000,
+            "dt_txt": "2018-12-25 15:00:00",
+            "main": Object {
+              "grnd_level": 1011.23,
+              "humidity": 95,
+              "pressure": 1011.23,
+              "sea_level": 1019.38,
+              "temp": 270.3,
+              "temp_kf": -1.76,
+              "temp_max": 272.063,
+              "temp_min": 270.3,
+            },
+            "rain": Object {},
+            "snow": Object {
+              "3h": 0.001,
+            },
+            "sys": Object {
+              "pod": "n",
+            },
+            "weather": Array [
+              Object {
+                "description": "clear sky",
+                "icon": "01n",
+                "id": 800,
+                "main": "Clear",
+              },
+            ],
+            "wind": Object {
+              "deg": 225.004,
+              "speed": 9.02,
+            },
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "name": Object {
+            "clouds": Object {
+              "all": 80,
+            },
+            "dt": 1545760800,
+            "dt_txt": "2018-12-25 18:00:00",
+            "main": Object {
+              "grnd_level": 1012.44,
+              "humidity": 88,
+              "pressure": 1012.44,
+              "sea_level": 1020.58,
+              "temp": 269.97,
+              "temp_kf": -1.32,
+              "temp_max": 271.297,
+              "temp_min": 269.97,
+            },
+            "rain": Object {},
+            "snow": Object {
+              "3h": 0.0185,
+            },
+            "sys": Object {
+              "pod": "n",
+            },
+            "weather": Array [
+              Object {
+                "description": "clear sky",
+                "icon": "01n",
+                "id": 800,
+                "main": "Clear",
+              },
+            ],
+            "wind": Object {
+              "deg": 227.514,
+              "speed": 9.11,
+            },
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "name": Object {
+            "clouds": Object {
+              "all": 80,
+            },
+            "dt": 1545771600,
+            "dt_txt": "2018-12-25 21:00:00",
+            "main": Object {
+              "grnd_level": 1013.07,
+              "humidity": 90,
+              "pressure": 1013.07,
+              "sea_level": 1021.23,
+              "temp": 270.19,
+              "temp_kf": -0.88,
+              "temp_max": 271.075,
+              "temp_min": 270.19,
+            },
+            "rain": Object {},
+            "snow": Object {
+              "3h": 0.049,
+            },
+            "sys": Object {
+              "pod": "n",
+            },
+            "weather": Array [
+              Object {
+                "description": "light snow",
+                "icon": "13n",
+                "id": 600,
+                "main": "Snow",
+              },
+            ],
+            "wind": Object {
+              "deg": 229.5,
+              "speed": 9.26,
+            },
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <CityCard
+            name={
+              Object {
+                "clouds": Object {
+                  "all": 80,
+                },
+                "dt": 1545750000,
+                "dt_txt": "2018-12-25 15:00:00",
+                "main": Object {
+                  "grnd_level": 1011.23,
+                  "humidity": 95,
+                  "pressure": 1011.23,
+                  "sea_level": 1019.38,
+                  "temp": 270.3,
+                  "temp_kf": -1.76,
+                  "temp_max": 272.063,
+                  "temp_min": 270.3,
+                },
+                "rain": Object {},
+                "snow": Object {
+                  "3h": 0.001,
+                },
+                "sys": Object {
+                  "pod": "n",
+                },
+                "weather": Array [
+                  Object {
+                    "description": "clear sky",
+                    "icon": "01n",
+                    "id": 800,
+                    "main": "Clear",
+                  },
+                ],
+                "wind": Object {
+                  "deg": 225.004,
+                  "speed": 9.02,
+                },
+              }
+            }
+          />,
+          <CityCard
+            name={
+              Object {
+                "clouds": Object {
+                  "all": 80,
+                },
+                "dt": 1545760800,
+                "dt_txt": "2018-12-25 18:00:00",
+                "main": Object {
+                  "grnd_level": 1012.44,
+                  "humidity": 88,
+                  "pressure": 1012.44,
+                  "sea_level": 1020.58,
+                  "temp": 269.97,
+                  "temp_kf": -1.32,
+                  "temp_max": 271.297,
+                  "temp_min": 269.97,
+                },
+                "rain": Object {},
+                "snow": Object {
+                  "3h": 0.0185,
+                },
+                "sys": Object {
+                  "pod": "n",
+                },
+                "weather": Array [
+                  Object {
+                    "description": "clear sky",
+                    "icon": "01n",
+                    "id": 800,
+                    "main": "Clear",
+                  },
+                ],
+                "wind": Object {
+                  "deg": 227.514,
+                  "speed": 9.11,
+                },
+              }
+            }
+          />,
+          <CityCard
+            name={
+              Object {
+                "clouds": Object {
+                  "all": 80,
+                },
+                "dt": 1545771600,
+                "dt_txt": "2018-12-25 21:00:00",
+                "main": Object {
+                  "grnd_level": 1013.07,
+                  "humidity": 90,
+                  "pressure": 1013.07,
+                  "sea_level": 1021.23,
+                  "temp": 270.19,
+                  "temp_kf": -0.88,
+                  "temp_max": 271.075,
+                  "temp_min": 270.19,
+                },
+                "rain": Object {},
+                "snow": Object {
+                  "3h": 0.049,
+                },
+                "sys": Object {
+                  "pod": "n",
+                },
+                "weather": Array [
+                  Object {
+                    "description": "light snow",
+                    "icon": "13n",
+                    "id": 600,
+                    "main": "Snow",
+                  },
+                ],
+                "wind": Object {
+                  "deg": 229.5,
+                  "speed": 9.26,
+                },
+              }
+            }
+          />,
+        ],
+        "data-test": "component-guessed-words",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "name": Object {
+              "clouds": Object {
+                "all": 80,
+              },
+              "dt": 1545750000,
+              "dt_txt": "2018-12-25 15:00:00",
+              "main": Object {
+                "grnd_level": 1011.23,
+                "humidity": 95,
+                "pressure": 1011.23,
+                "sea_level": 1019.38,
+                "temp": 270.3,
+                "temp_kf": -1.76,
+                "temp_max": 272.063,
+                "temp_min": 270.3,
+              },
+              "rain": Object {},
+              "snow": Object {
+                "3h": 0.001,
+              },
+              "sys": Object {
+                "pod": "n",
+              },
+              "weather": Array [
+                Object {
+                  "description": "clear sky",
+                  "icon": "01n",
+                  "id": 800,
+                  "main": "Clear",
+                },
+              ],
+              "wind": Object {
+                "deg": 225.004,
+                "speed": 9.02,
+              },
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "name": Object {
+              "clouds": Object {
+                "all": 80,
+              },
+              "dt": 1545760800,
+              "dt_txt": "2018-12-25 18:00:00",
+              "main": Object {
+                "grnd_level": 1012.44,
+                "humidity": 88,
+                "pressure": 1012.44,
+                "sea_level": 1020.58,
+                "temp": 269.97,
+                "temp_kf": -1.32,
+                "temp_max": 271.297,
+                "temp_min": 269.97,
+              },
+              "rain": Object {},
+              "snow": Object {
+                "3h": 0.0185,
+              },
+              "sys": Object {
+                "pod": "n",
+              },
+              "weather": Array [
+                Object {
+                  "description": "clear sky",
+                  "icon": "01n",
+                  "id": 800,
+                  "main": "Clear",
+                },
+              ],
+              "wind": Object {
+                "deg": 227.514,
+                "speed": 9.11,
+              },
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "name": Object {
+              "clouds": Object {
+                "all": 80,
+              },
+              "dt": 1545771600,
+              "dt_txt": "2018-12-25 21:00:00",
+              "main": Object {
+                "grnd_level": 1013.07,
+                "humidity": 90,
+                "pressure": 1013.07,
+                "sea_level": 1021.23,
+                "temp": 270.19,
+                "temp_kf": -0.88,
+                "temp_max": 271.075,
+                "temp_min": 270.19,
+              },
+              "rain": Object {},
+              "snow": Object {
+                "3h": 0.049,
+              },
+              "sys": Object {
+                "pod": "n",
+              },
+              "weather": Array [
+                Object {
+                  "description": "light snow",
+                  "icon": "13n",
+                  "id": 600,
+                  "main": "Snow",
+                },
+              ],
+              "wind": Object {
+                "deg": 229.5,
+                "speed": 9.26,
+              },
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

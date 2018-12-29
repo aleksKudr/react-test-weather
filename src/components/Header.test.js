@@ -1,26 +1,21 @@
 import React from 'react';
 
-import Weather from './components/weather/weather';
+
+// import renderer from 'react-test-renderer';
+import { NavLink } from 'reactstrap';
 
 
-it('test button', () => {
+it('test link login', () => {
   const wrapper = shallow(
-    <button
-      type="button"
-      className="form-submit"
-      onClick={jest.fn()}
-    >
-Logout
-
-    </button>
+    <NavLink href="/login" />
   );
 
   //   let tree = component.toJSON();
   expect(wrapper).toMatchSnapshot();
 });
-it('test weather', () => {
+it('test link regist', () => {
   const wrapper = shallow(
-    <Weather />
+    <NavLink href="/regist" />
   );
 
   //   let tree = component.toJSON();

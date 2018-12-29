@@ -3,16 +3,45 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "jwt-decode": "^2.2.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.12"
+    "ajv": "*",
+    "axios": "*",
+    "check-prop-types": "^1.1.2",
+    "fetch-mock": "^7.2.7",
+    "jwt-decode": "*",
+    "mongoose": "*",
+    "prop-types": "^15.6.2",
+    "react": "*",
+    "react-dom": "*",
+    "react-redux": "*",
+    "react-router-dom": "*",
+    "react-scripts": "*",
+    "reactstrap": "*",
+    "redux": "*",
+    "redux-form": "*",
+    "redux-thunk": "*"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test —env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "axios-mock-adapter": "^1.15.0",
+    "enzyme": "*",
+    "enzyme-adapter-react-16": "*",
+    "eslint": "*",
+    "eslint-config-airbnb": "*",
+    "identity-obj-proxy": "*",
+    "jest": "*",
+    "jest-enzyme": "*",
+    "moxios": "^0.4.0",
+    "redux-mock-store": "^1.5.3"
   }
 }
