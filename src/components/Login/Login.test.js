@@ -62,7 +62,7 @@ test('has access to `success` state', () => {
   // console.log('wrapper.debug()', wrapper.debug());
   const spyOn = jest.spyOn(wrapper.instance(), 'onSubmit');
   wrapper.instance().forceUpdate();
-  const test = wrapper
+  wrapper
     .find(LoginForm)
     // .childAt(0)
     .dive()
