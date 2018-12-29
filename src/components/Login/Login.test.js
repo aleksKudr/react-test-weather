@@ -68,9 +68,6 @@ test('has access to `success` state', () => {
     .dive()
     .simulate('submit', param);
 
-  // console.log('test.debug()', test.debug());
-  // console.log('wrapper..instance.debug()', wrapper.debug());
-
   expect(spyOn).toHaveBeenCalledWith(param);
   expect(wrapper.instance().props.login).toHaveBeenCalled();
   expect(wrapper.instance().props.login).toHaveBeenCalledWith(param);
