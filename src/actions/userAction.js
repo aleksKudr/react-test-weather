@@ -1,5 +1,3 @@
-// import streams from '../apis/streams';
-// import history from '../history';
 import { instance } from '../utils/axios';
 import {
   SIGN_IN,
@@ -8,7 +6,7 @@ import {
 } from './types';
 import { setToken } from '../utils/functions';
 
-export const regist = formValues => async (dispatch, getState) => {
+export const regist = formValues => async (dispatch) => {
   const response = await instance.post('/regist', {
     username: formValues.username,
     password: formValues.password
@@ -20,7 +18,6 @@ export const regist = formValues => async (dispatch, getState) => {
 };
 
 export const login = formValues => async (dispatch) => {
-  console.log('formValues', JSON.stringify(formValues));
   const response = await instance.post('login', {
     username: formValues.username,
     password: formValues.password
@@ -28,8 +25,6 @@ export const login = formValues => async (dispatch) => {
 
 
   setToken(response.data.token);
-  console.log(formValues);
-  //   console.log('response', JSON.stringify(response));
   dispatch({ type: SIGN_IN,
     payload: formValues });
 };

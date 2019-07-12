@@ -2,12 +2,9 @@ import React from 'react';
 
 class CityCard extends React.PureComponent {
   render() {
-    // console.log('this.props', JSON.stringify(this.props));
     if (this.props.name.main === undefined && this.props.weather === undefined) {
       return <div />;
     } return (
-
-
       <div className="row">
         <div className="col">
           {this.props.name.dt_txt}

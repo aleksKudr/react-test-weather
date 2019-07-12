@@ -1,16 +1,12 @@
-import expect from 'expect';
 import userReducer from './userReducer';
 import historyReducer from './historyReducer';
 import weatherReducer from './weatherReducer';
-// import {login, regist} from '../actions/userAction';
 import {
   SIGN_IN,
   SIGN_OUT,
   CREATE_USER,
-  FETCH_HISTORY,
-  FETCH_WEATHER
+  FETCH_HISTORY
 } from '../actions/types';
-// import getPostMock from '../mocks/getPostMock';
 
 describe('user reducer', () => {
   it('should return the initial state', () => {
@@ -173,29 +169,4 @@ describe('weather reducer', () => {
       }
     );
   });
-
-//     it('should handle FETCH_WEATHER', () => {
-//       expect(
-//         weatherReducer([], {
-//           type: FETCH_WEATHER,
-//           payload: {
-//             code: null,
-//             list: [],
-//             city: [],
-//             cnt: null,
-//             message: '123',
-//             createdAT: null,
-//           }
-//         })
-//       ).toEqual(
-//         {
-//             code: null,
-//             list: [],
-//             city: [],
-//             cnt: null,
-//             message: '123',
-//             createdAT: null,
-//         }
-//       )
-//    })
 });

@@ -8,11 +8,9 @@ import {
 } from './types';
 
 export const createHistory = data => async (dispatch) => {
-  console.log('data', data);
   const response = await instance.post('/history', {
     data
   });
-  console.log('response1', response);
   dispatch({ type: CREATE_WEATHER,
     payload: response });
 };
@@ -26,7 +24,6 @@ export const getWeather = formValues => async (dispatch) => {
       q: formValues.city
     }
   });
-  console.log('response', JSON.stringify(response));
 
   dispatch({ type: FETCH_WEATHER,
     payload: response });

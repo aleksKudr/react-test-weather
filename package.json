@@ -3,22 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "ajv": "*",
-    "axios": "*",
+    "ajv": "^6.10.1",
+    "axios": "^0.19.0",
+    "axios-mock-adapter": "^1.17.0",
     "check-prop-types": "^1.1.2",
-    "fetch-mock": "^7.2.7",
-    "jwt-decode": "*",
-    "mongoose": "*",
-    "prop-types": "^15.6.2",
-    "react": "*",
-    "react-dom": "*",
-    "react-redux": "*",
-    "react-router-dom": "*",
-    "react-scripts": "*",
-    "reactstrap": "*",
-    "redux": "*",
-    "redux-form": "*",
-    "redux-thunk": "*"
+    "eslint": "^5.16.0",
+    "fetch-mock": "^7.3.6",
+    "jest": "^24.7.1",
+    "jwt-decode": "^2.2.0",
+    "mongoose": "^5.6.4",
+    "moxios": "^0.4.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.0.1",
+    "reactstrap": "^8.0.1",
+    "redux": "^4.0.4",
+    "redux-form": "^8.2.4",
+    "redux-mock-store": "^1.5.3",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,15 +38,10 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "axios-mock-adapter": "^1.15.0",
-    "enzyme": "*",
-    "enzyme-adapter-react-16": "*",
-    "eslint": "*",
-    "eslint-config-airbnb": "*",
-    "identity-obj-proxy": "*",
-    "jest": "*",
-    "jest-enzyme": "*",
-    "moxios": "^0.4.0",
-    "redux-mock-store": "^1.5.3"
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest-enzyme": "^7.0.2"
   }
 }

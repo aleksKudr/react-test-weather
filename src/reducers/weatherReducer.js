@@ -1,4 +1,3 @@
-// import _ from 'lodash';
 import {
   FETCH_WEATHER,
   CREATE_WEATHER
@@ -16,7 +15,6 @@ const INITIAL_STATE = {
 export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
   case FETCH_WEATHER:
-    // console.log('act', action.payload.data)
     return {
       ...state,
       code: action.payload.data.code,

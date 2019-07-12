@@ -1,19 +1,18 @@
-import React from 'react';
 import {
   setToken, getToken
 } from './functions';
 
 it('GET token', () => {
-  var b = '1';
+  const b = '1';
   setToken(b);
-  var a = getToken();
+  const a = getToken();
   expect(a).toBe(b);
-  var b = '-1';
+  const c = '-1';
   setToken(b);
-  var a = getToken();
-  expect(a).toBe(b);
-  var b = '0';
+  const d = getToken();
+  expect(d).toBe(c);
+  const ab = '0';
   setToken(b);
-  var a = getToken();
-  expect(a).toBe(b);
+  const aa = getToken();
+  expect(aa).toBe(ab);
 });

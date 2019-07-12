@@ -9,7 +9,6 @@ it('test link history', () => {
     <NavLink href="/history" />
   );
 
-  //   let tree = component.toJSON();
   expect(wrapper).toMatchSnapshot();
 });
 
@@ -18,7 +17,6 @@ it('test searchbar', () => {
     <SearchBar onSubmit={jest.fn()} />
   );
 
-  //   let tree = component.toJSON();
   expect(wrapper).toMatchSnapshot();
 });
 
@@ -131,6 +129,5 @@ it('test CityList', () => {
     />
   );
 
-  //   let tree = component.toJSON();
   expect(wrapper).toMatchSnapshot();
 });
